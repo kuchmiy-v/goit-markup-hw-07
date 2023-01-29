@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+    .container {
+      width: 736px;
+    }
+  
+    .team-section {
+      padding-top: 96px;
+      padding-bottom: 104px;
+    }
+    .team-member {
+      width: calc((100% - 24px) / 2);
+    }
+  
+    .customers-list {
+      gap: 24px;
+    }
+    .customer-item {
+      width: calc((100% - 48px) / 3);
+    }
+  }

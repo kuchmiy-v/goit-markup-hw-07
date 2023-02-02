@@ -1,5 +1,64 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
     .container {
-      width: 448px;
+      width: 396px;
+    }
+
+    .container.header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ----- Features ------ */
+    .s-features {
+      width: 100%;
+      /* text-align: center; */
+    }
+    .section-title {
+      text-align: center;
+    }
+    .section-after-title {
+      width: 100%;
+    }
+    /* ------------- Footer ------------ */
+    /* .container.ft {
+      display: flex;
+      flex-direction: column;
+      
+      text-align: center;
+      align-items: center;
+    }
+
+    .footer-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-subcribe {
+      text-align: center;
+    } */
+
+  }
+
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .container.ft {
+      display: flex;
+      flex-direction: column;
+      
+      text-align: center;
+      align-items: center;
+    }
+    .ft > .social {
+      justify-content: center;
+    }
+
+    .footer-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-subcribe {
+      width: 100%;
+      text-align: center;
     }
   }

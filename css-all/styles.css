@@ -454,6 +454,7 @@ header {
   border: 1px solid #e7e9fc;
 }
 
+/* --------- Footer ----------- */
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -485,6 +486,8 @@ header {
 .social {
   display: flex;
   flex-wrap: wrap;
+  width: 208px;
+  height: 80px;
 }
 .footer-soc {
   color: var(--primary-white-color);
@@ -492,11 +495,6 @@ header {
   font-size: 16px;
   line-height: 1.5;
   /* text-align: center; */
-}
-
-.social {
-  width: 208px;
-  height: 80px;
 }
 
 .footer-soc-list {

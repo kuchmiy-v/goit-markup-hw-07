@@ -167,6 +167,7 @@ header {
   margin-bottom: 48px;
 }
 .mob-menu-tel {
+  width: 337px;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
@@ -184,7 +185,7 @@ header {
 .mob-menu-soc-list {
   display: flex;
   justify-content: center;
-  gap: 64px;
+  gap: 56px;
 }
 .mob-menu-soc-item {
   width: 40px;
@@ -243,7 +244,7 @@ header {
   margin: 0 auto;
   margin-bottom: 72px;
   color: var(--primary-white-color);
-  width: 318px;
+  max-width: 318px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -288,8 +289,8 @@ header {
   margin-bottom: 8px;
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
 }
 
 .section-after-title {
@@ -324,7 +325,6 @@ header {
 } */
 
 /* Our team */
-/* докачати ще по одному зображенню 2х (не 6) */
 .team-section {
   padding-top: 96px;
   padding-bottom: 128px;
@@ -347,14 +347,19 @@ header {
   text-transform: capitalize;
 }
 
+
 .team .team-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .team-member {
-  width: 100%;
+  /* width: 100%; */
+  width: 264px;
   background-color: var(--primary-white-color);
   border: 1px solid var(--cards-bg-color);
   border-radius: 0px 0px 4px 4px;

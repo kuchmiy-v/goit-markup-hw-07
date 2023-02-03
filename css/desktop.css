@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1440px;
+    width: 1158px;
     padding-left: 24px;
   padding-right: 24px;
   }
@@ -10,6 +10,10 @@
   }
 
   /* header navigation */
+  .container.header {
+    padding-left: 156px;
+    padding-right: 156px;
+  }
 /* .header-nav {
   display: flex;
   align-items: center;
@@ -66,16 +70,21 @@
   /* display: flex; */
   flex-direction: row;
   margin-left: auto;
+  /* text-align: end; */
   /* margin-left: 200px; */
 }
 .header-contact .header-item + .header-item {
   margin-left: 40px;
 }
-
 .header-contact .header-link:hover,
 .header-contact .header-link:focus {
   color: var(--accent-color);
 }
+
+.header-contact .header-link {
+  font-size: 16px;
+  line-height: 1.5;
+  }
 
   /* Hero */
   .s-hero {
@@ -86,7 +95,8 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../img/bg-people-office.jpg);
-    width: 1440px;
+    width: 100%;
+    /* min-width: 1440px; */
   }
   @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -102,7 +112,7 @@
   }}
   .hero-title {
     margin-bottom: 48px;
-    width: 494px;
+    max-width: 494px;
     font-size: 56px;
     line-height: 1.07;
   }
@@ -125,8 +135,14 @@
     align-items: center;
     justify-content: center;
   }
-  .feature-icon {
-    
+  .feature-svg:hover {
+    border: 1px solid #8e8f99;
+  }
+  
+  .section-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
   }
 
   /* ------- works "We are doing" ------- */
@@ -160,6 +176,7 @@
   }
   .team-member {
     width: calc((100% - 72px) / 4);
+    
   }
 
   .customers {
@@ -193,6 +210,9 @@
   display: flex;
   gap: 120px;
   margin-right: 80px;
+}
+.footer-text {
+  margin-bottom: 0;
 }
 
 

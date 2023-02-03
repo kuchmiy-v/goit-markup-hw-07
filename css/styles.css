@@ -423,6 +423,7 @@ header {
 
 /* Customers */
 .customers {
+  /* width: 100%; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -436,7 +437,7 @@ header {
 }
 
 .customer-item {
-  width: calc((100% - 16px) / 2);
+  /* width: calc((100% - 16px) / 2); */
   height: 88px;
 }
 .customer-link {

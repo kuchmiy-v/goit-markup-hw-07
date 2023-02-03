@@ -41,12 +41,29 @@
 
 
   @media screen and (min-width: 320px) and (max-width: 767px) {
+    .customer-item {
+      width: calc((100% - 16px) / 2);
+    }
+    
     .container.ft {
       display: flex;
       flex-direction: column;
+      gap: 72px;
       
       text-align: center;
       align-items: center;
+    }
+    .footer-tablet {
+      
+    }
+    .social {
+      text-align: center;
+    }
+    .footer-soc {
+      margin: 0 auto;
+      /* text-align: center;
+      justify-content: center;
+      align-items: center; */
     }
     .ft > .social {
       justify-content: center;

@@ -40,9 +40,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-  /* завуження контейнеру для ширини екрану 320 */
+  /* завуження контейнеру для ширини екрану 320 ? */
   .container {
-    width: 328px;
+    width: 428px;
   }
   .s-features {
     width: 100%;
@@ -56,6 +56,7 @@
 /* ------------------------ */
 
   .container.header {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
   }
@@ -67,6 +68,9 @@
   .customer-item {
     width: calc((100% - 16px) / 2);
   }
+  .customer-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 72px;
+  }
 
   .container.ft {
     display: flex;
@@ -76,8 +80,7 @@
     text-align: center;
     align-items: center;
   }
-  .footer-tablet {
-  }
+  
   .social {
     text-align: center;
   }
@@ -100,4 +103,19 @@
     width: 100%;
     text-align: center;
   }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+/* завуження контейнеру для ширини екрану 320 */
+.container {
+  width: 328px;
+}
+/* .container.hero, .container.header {
+  max-width: 328px;
+} */
+.container.ft{
+  /* width: 100%; */
+  max-width: 328px;
+}
 }

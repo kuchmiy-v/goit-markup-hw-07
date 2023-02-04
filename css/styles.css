@@ -160,6 +160,7 @@ header {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--title-text-color);
 }
 
@@ -169,8 +170,9 @@ header {
 .mob-menu-tel {
   width: 337px;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
+  text-decoration: none;
   color: #4d5ae5;
   display: inline-block;
 }
@@ -179,6 +181,7 @@ header {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #434455;
 }
 
